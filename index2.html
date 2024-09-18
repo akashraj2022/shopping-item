@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        button{
+            background-color: orange;
+            font-weight: bold;
+            border: 2px dotted aqua;
+        }
+    </style>
+   
+</head>
+<body>
+    <button>click me</button>
+    <script>
+        let result=document.querySelector("button")
+    function show(){
+        alert("hello")
+    }
+    function data(){
+        alert("hello again")
+    }
+    result.addEventListener("click",show)
+    result.addEventListener("click",data)
+    </script>
+    
+</body>
+</html>

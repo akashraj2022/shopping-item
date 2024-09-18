@@ -1,0 +1,10 @@
+.main{display: grid;
+    grid-template-columns: 20% auto;
+    gap: 10px;
+    }
+    .left ul{list-style: none;}
+    .left li{width: 100%; text-align: center; padding: 12px 0px; background: yellowgreen; margin-top: 3px; font-weight: bold;}
+    .prow{display: grid; grid-template-columns: auto auto auto auto; gap: 15px; text-decoration: underline;}
+    .product{border: 2px solid gray; background:aquamarine;}
+    .product img{height: auto; max-width: 100%;}
+    .content{padding: 15px; text-align: justify; line-height: 30px;}
